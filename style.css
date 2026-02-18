@@ -1,0 +1,113 @@
+header{
+  font-family: 'Vazirmatn', sans-serif;
+text-align: center;
+  margin-top: 15px;
+  font-size: 33px;
+  font-weight:bold;
+  color: rgb(0,119,124);
+  
+}
+body{
+  background-color:rgb(233,233,233);
+  font-family: 'Vazirmatn', sans-serif;
+}
+button{
+    box-shadow: 
+    8px 8px 0 rgba(60,138,138,0.386),
+    13px 13px 0 rgba(123,255,255,0.335),
+    16px 16px 0 rgba(255,188,76,0.371);
+   margin-top: 15px;
+    margin-left: 18px;
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+    border-width: 2px;
+    border-color:rgba(101,73,0,0.36)
+}
+.Tra{
+  width: 21px;
+  height: 21px; 
+  object-fit: contain;
+}
+.Buy{
+  width: 21px;
+  height: 21px; 
+  object-fit: contain;
+}
+.Ord{
+    width: 21px;
+  height: 21px; 
+  object-fit: contain;
+}
+.Sup{
+      width: 21px;
+  height: 21px; 
+  object-fit: contain;
+}
+h5{
+font-size:15px;
+  margin-top: 7px;
+ text-align: right;
+    font-family: 'Vazirmatn', sans-serif;
+    color: #2d2d2d;
+    
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+h2{
+  text-align: center;
+  font-family: 'Vazirmatn', sans-serif;
+  color: #00734ee9
+}
+h3{
+  margin-top: 40px;
+     font-family: 'Vazirmatn', sans-serif;
+     text-align: right;
+}
+footer{
+  margin-top: 40px;
+  background-color: rgba(0,233,166,0.535) ;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+}
+.what{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  text-align: center;
+  margin-top: 40px;
+   text-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.What-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+    border-style: solid;
+  border-radius: 25px;
+  background-color: #dadada;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.20);
+    font-weight: bold;
+}
+
+.What-1 img {
+  width: 50px;
+  height: 50px;
+}
